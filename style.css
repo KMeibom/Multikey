@@ -1,5 +1,9 @@
-body{
-  background-color: black;
-  color: #fff;
-  font-size: 12px;
+@media only screen and (max-width 667px){
+
+  body{
+    background-color: black;
+    color: #fff;
+    font-size: 12px;
+  }
+
 }
