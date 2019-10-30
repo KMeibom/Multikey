@@ -1,15 +1,45 @@
 
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
 body{
-  background-color: red;
-  color: #fff;
-  font-size: 60px;
+  background-color: #3e3d3d;
+  color: #e3e3e3;
+  font-size: 15px;
   }
+
+  /*Overskrifter*/
+
+  h1{
+    font-size: 17px;
+    color: #f2f0f0;
+    font-family: verdana, sans-serif;
+  }
+
+/*header, main, footer*/
+
+header{
+  background-color: #e8621b;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 19px;
+  font-family: verdana, sans-serif;
+}
+
+/*container*/
 
 .container{
   background-color: green;
   color: #000;
   font-size: 20px;
   }
+
+/*media query, phone size Iphone8 */
 
   @@media only screen and (max-width: 667px) {
     /*alt samme style skal ind her*/
