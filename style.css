@@ -1,9 +1,16 @@
-@media only screen and (max-width 667px){
 
-  body{
-    background-color: black;
-    color: #fff;
-    font-size: 12px;
+body{
+  background-color: red;
+  color: #fff;
+  font-size: 60px;
   }
 
-}
+.container{
+  background-color: green;
+  color: #000;
+  font-size: 20px;
+  }
+
+  @@media only screen and (max-width: 667px) {
+    /*alt samme style skal ind her*/
+  }
