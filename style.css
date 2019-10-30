@@ -8,6 +8,9 @@ body{
   background-color: #3e3d3d;
   color: #e3e3e3;
   font-size: 15px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   }
 
   /*Overskrifter*/
@@ -29,6 +32,34 @@ header{
   width: 100%;
   font-size: 19px;
   font-family: verdana, sans-serif;
+}
+
+main{
+  display: flex;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 2.6fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "header header header" "space main space1" "footer footer footer";
+}
+
+.header { grid-area: header; }
+.space { grid-area: space; }
+.main { grid-area: main; }
+.space1 { grid-area: space1; }
+.footer { grid-area: footer; }
+
+footer{
+  display: flex;
+  background-color: #484747;
+  min-height: 70px;
+  width: 100%;
+  margin-top: auto;
+}
+
+
 }
 
 /*container*/
