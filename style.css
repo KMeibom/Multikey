@@ -25,7 +25,7 @@ body{
 
 header{
   background-color: #e8621b;
-  min-height: 70px;
+  min-height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,13 +54,11 @@ main{
 footer{
   display: flex;
   background-color: #484747;
-  min-height: 70px;
+  min-height: 80px;
   width: 100%;
   margin-top: auto;
 }
 
-
-}
 
 /*container*/
 
