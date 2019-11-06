@@ -5,67 +5,48 @@
 }
 
 body{
-  background-color: #3e3d3d;
-  color: #e3e3e3;
+  background-color: #272727;
+  color: #ededed;
   font-size: 15px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   }
 
-  /*Overskrifter*/
 
-  h1{
-    font-size: 17px;
-    color: #f2f0f0;
-    font-family: verdana, sans-serif;
-  }
-
-/*header, main, footer*/
-
-header{
-  background-color: #e8621b;
-  min-height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  font-size: 19px;
-  font-family: verdana, sans-serif;
-}
-
-main{
-  display: flex;
-}
+/* Loading side */
 
 .grid-container {
   display: grid;
-  grid-template-columns: 0.5fr 2.6fr 0.5fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "header header header" "space main space1" "footer footer footer";
+  grid-template-columns: 0.4fr 2.2fr 0.4fr;
+  grid-template-rows: 0.9fr 2fr 0.8fr 0.5fr 0.8fr;
+  grid-template-areas: "leftspace topspace rightspace" "leftspace logo rightspace" "leftspace Space rightspace" "leftspace Loading rightspace" "leftspace Bottomspace rightspace";
 }
 
-.header { grid-area: header; }
-.space { grid-area: space; }
-.main { grid-area: main; }
-.space1 { grid-area: space1; }
-.footer { grid-area: footer; }
+.leftspace { grid-area: leftspace; }
 
-footer{
-  display: flex;
-  background-color: #484747;
-  min-height: 80px;
+.rightspace { grid-area: rightspace; }
+
+.topspace { grid-area: topspace; }
+
+.Space { grid-area: Space; }
+
+.Loading {
+  grid-area: Loading;
+  background-color: #353d40;
+  min-height: 15px;
   width: 100%;
-  margin-top: auto;
 }
 
-/*container*/
+.Bottomspace { grid-area: Bottomspace; }
 
-.container{
-  background-color: green;
-  color: #000;
-  font-size: 20px;
-  }
+.logo { grid-area: logo; }
+
+/* progress bar */
+
+/*Sign up site */
+
+
 
 /*media query, phone size Iphone8 */
 
