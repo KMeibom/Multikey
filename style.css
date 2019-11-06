@@ -13,6 +13,12 @@ body{
   flex-direction: column;
   }
 
+main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 h1{
   color: #82B5BE;
   font-size: 45px;
@@ -20,6 +26,7 @@ h1{
   font-weight: 400;
   letter-spacing: 3px;
 }
+
 
 /* Loading side */
 
@@ -52,7 +59,7 @@ h1{
 
 /*Sign up site */
 
-.grid-container {
+.grid-container1 {
   display: grid;
   grid-template-columns: 0.4fr 2.2fr 0.4fr;
   grid-template-rows: 0.3fr 2.5fr 0.2fr;
@@ -65,13 +72,18 @@ h1{
 
 .topspace1 { grid-area: topspace1; }
 
-.main1 { grid-area: main1; }
+.bottomspace1 { grid-area: bottomspace1; }
+
+.main1 {
+  grid-area: main1;
+
+}
 
 form input{
 
   color:  #a0a0a0;
   font-size: 15px;
-  font-family: "montserrat";
+  font-family: 'Montserrat', sans-serif;
   background-color: #363636;
   border-color: #848484;
   border-style: solid;
@@ -86,7 +98,7 @@ form input{
 p {
   color:  #848484;
   font-size: 13px;
-  font-family: "montserrat";
+  font-family: 'Montserrat', sans-serif;
   text-align: right;
   padding-top: 10px;
 }
@@ -94,7 +106,7 @@ p {
 button{
   color:  #000;
   font-size: 15px;
-  font-family: "montserrat";
+  font-family: 'Montserrat', sans-serif;
   background-color: #82B5BE;
   border-color: #82b5be;
   border-style: solid;
@@ -109,7 +121,34 @@ button{
 
 }
 
-.bottomspace1 { grid-area: bottomspace1; }
+
+/* login side */
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2{
+  color: #ededed;
+  font-family: helvetica;
+  font-weight: 400;
+  font-size: 19;
+}
+
+.nummer{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #ededed;
+  margin-top: 20px;
+
+}
+
+.dots{
+
+}
+
 
 
 /*media query, phone size Iphone8 */
