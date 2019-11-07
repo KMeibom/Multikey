@@ -20,7 +20,7 @@ main{
   margin-right: auto;
   margin-top: 5%;
   min-height: 94vh;
-  width: 90%;
+  width: 85%;
 }
 
 h1{
@@ -33,34 +33,31 @@ h1{
 
 /*loading*/
 
-.load-container {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.6fr 1.6fr 0.8fr 0.25fr 0.75fr;
-  grid-template-areas: "spacetop" "logo" "spacemiddel" "loading" "spacebottom";
-}
-
-.spacetop { grid-area: spacetop; }
-.logo {
-  grid-area: logo;
+.logo{
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 80px;
 }
 
-.spacemiddel { grid-area: spacemiddel; }
-.loading {
-  grid-area: loading;
-  background-color: #353D40;
-  min-height: 10px;
+.container-load{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  width: 80%;
+}
+
+.loading{
   width: 100%;
+  background-color: #363636;
+  min-height: 40px;
   border-radius: 30px;
   -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
   -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
   box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
-  }
-
-.spacebottom { grid-area: spacebottom; }
+}
 
 /*sign up*/
 
@@ -71,6 +68,7 @@ h1{
   right: 0;
   min-height: 50px;
   width: 20%;
+  margin-right: 5px;
 }
 
 .logosmall{
@@ -142,10 +140,14 @@ button{
   width: 30%;
   height: 30px;
   margin-top: 20%;
-  margin-right: 20px;
+  margin-right: 28px;
   position: absolute;
   right: 0;
+}
 
+input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(49, 82, 92, .5);
 }
 
 /*Headline*/
