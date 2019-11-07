@@ -167,7 +167,18 @@ h2{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 15%;
+}
+
+.dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 60px;
+  min-height: 20px;
+  background-color: #fff;
+  width: 20px;
 }
 
 /*img*/
