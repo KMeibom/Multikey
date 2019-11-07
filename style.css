@@ -9,9 +9,6 @@ body{
   color: #ededed;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   }
 
 main{
@@ -25,13 +22,6 @@ main{
   background-color: red;
 }
 
-h1{
-  color: #82B5BE;
-  font-size: 45px;
-  font-family: helvetica;
-  font-weight: 400;
-  letter-spacing: 3px;
-}
 
 /*loading*/
 
@@ -153,11 +143,16 @@ input:focus {
 }
 
 /*Headline*/
+
 h1{
-  font-family: helvetica, sans-serif;
-  font-size: 45px;
   color: #82B5BE;
+  font-size: 45px;
+  font-family: helvetica;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #ff0000;
 }
+
 
 h2{
   font-size: 19px;
@@ -165,16 +160,14 @@ h2{
   font-weight: 400;
 }
 
-h3{
-
-}
-
 
 /*sign in*/
 
 .name{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 20%;
 }
 
