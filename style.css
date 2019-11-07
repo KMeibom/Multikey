@@ -16,17 +16,11 @@ body{
 main{
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
   min-height: 94vh;
   width: 90%;
-}
-
-/*GRID*/
-=======
-  width: 100%;
 }
 
 h1{
@@ -36,8 +30,6 @@ h1{
   font-weight: 400;
   letter-spacing: 3px;
 }
-
->>>>>>> 4cfed727db419b936002fa87d7fc3e496a6e0b5a
 
 /*loading*/
 
@@ -130,80 +122,11 @@ input{
   justify-content: flex-end;
 }
 
-.buttom{
+.button{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 30px;
-  width: 60px;
-}
-
-buttom{
-  background-color: #82B5BE;
-  color: #fff;
-}
-
-/*Headline*/
-
-<<<<<<< HEAD
-h1{
-  font-family: helvetica, sans-serif;
-  font-size: 45px;
-  color: #82B5BE;
-}
-=======
->>>>>>> 4cfed727db419b936002fa87d7fc3e496a6e0b5a
-
-/*img*/
-
-<<<<<<< HEAD
-.logo img{
-  width: 70%;
-  height: 70%;
-}
-=======
-.grid-container1 {
-  display: grid;
-  grid-template-columns: 0.4fr 2.2fr 0.4fr;
-  grid-template-rows: 0.3fr 2.5fr 0.2fr;
-  grid-template-areas: "leftspace1 topspace1 rightspace1" "leftspace1 main1 rightspace1" "leftspace1 bottomspace1 rightspace1";
-}
-
-.leftspace1 { grid-area: leftspace1; }
-
-.rightspace1 { grid-area: rightspace1; }
-
-.topspace1 { grid-area: topspace1; }
-
-.bottomspace1 { grid-area: bottomspace1; }
-
-.main1 {
-  grid-area: main1;
-
-}
-
-form input{
-
-  color:  #a0a0a0;
-  font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #363636;
-  border-color: #848484;
-  border-style: solid;
-  border-width: thin;
-  border-radius: 28px;
-  radius: 50%;
-  width: 100%;
-  height: 30px;
-
-}
-
-p {
-  color:  #848484;
-  font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
-  text-align: right;
-  padding-top: 10px;
+  margin-bottom: 10%;
 }
 
 button{
@@ -218,42 +141,25 @@ button{
   radius: 50%;
   width: 30%;
   height: 30px;
-  text-align: center;
-  margin-left: 193px;
-  margin-top: 60px;
+  margin-top: 20%;
+  margin-right: 20px;
+  position: absolute;
+  right: 0;
 
 }
 
-
-/* login side */
-
-.container{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+/*Headline*/
+h1{
+  font-family: helvetica, sans-serif;
+  font-size: 45px;
+  color: #82B5BE;
 }
 
-h2{
-  color: #ededed;
-  font-family: helvetica;
-  font-weight: 400;
-  font-size: 19;
+/*img*/
+.logo img{
+  width: 70%;
+  height: 70%;
 }
-
-.nummer{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  color: #ededed;
-  margin-top: 20px;
-
-}
-
-.dots{
-
-}
-
->>>>>>> 4cfed727db419b936002fa87d7fc3e496a6e0b5a
-
 
 /*media query, phone size Iphone8 */
 
