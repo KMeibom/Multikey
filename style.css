@@ -19,7 +19,6 @@ main{
   margin-top: 5%;
   min-height: 94vh;
   width: 85%;
-  background-color: red;
 }
 
 
@@ -40,18 +39,45 @@ main{
   margin-top: 30%;
   width: 80%;
 }
+/*
+#loading{
+  width: 1%;
+  background-color: red;
+  min-height: 40px;
+  border-radius: 30px;
+}
 
-.loading{
+#container-load {
   width: 100%;
+  background-color: #ddd;
   background-color: #363636;
   min-height: 40px;
   border-radius: 30px;
   -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
   -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
   box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+} 
+/*sign up*/
+
+#myProgress {
+  width: 80%;
+  background-color: #353D40;
+  border-radius: 30px;
+	margin-left:auto;
+	margin-right:auto;
+	min-height: 40px;
+	-webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+	margin-top:30%;
 }
 
-/*sign up*/
+#myBar {
+  width: 1%;
+  min-height: 40px;
+  background-color: #82B5B1;
+	border-radius: 30px;
+}
 
 .help{
   display:flex;
@@ -150,7 +176,7 @@ h1{
   font-family: helvetica;
   font-weight: 400;
   letter-spacing: 3px;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 1.5px 1.5px 1.5px #212020;
 }
 
 
