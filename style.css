@@ -16,7 +16,6 @@ body{
 main{
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -36,8 +35,6 @@ h1{
   font-weight: 400;
   letter-spacing: 3px;
 }
-
->>>>>>> 4cfed727db419b936002fa87d7fc3e496a6e0b5a
 
 /*loading*/
 
