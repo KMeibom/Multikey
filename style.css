@@ -126,8 +126,7 @@ input{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 30px;
-  width: 60px;
+  margin-bottom: 10%;
 }
 
 button{
@@ -142,9 +141,11 @@ button{
   radius: 50%;
   width: 30%;
   height: 30px;
-  text-align: center;
-  margin-left: 193px;
-  margin-top: 60px;
+  margin-top: 20%;
+  margin-right: 20px;
+  position: absolute;
+  right: 0;
+
 }
 
 /*Headline*/
