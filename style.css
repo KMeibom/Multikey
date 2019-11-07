@@ -7,94 +7,122 @@
 body{
   background-color: #272727;
   color: #ededed;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   }
 
-h1{
-  color: #82B5BE;
-  font-size: 45px;
-  font-family: helvetica;
-  font-weight: 400;
-  letter-spacing: 3px;
+main{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  min-height: 94vh;
+  width: 85%;
+  background-color: red;
 }
 
-/* Loading side */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 0.4fr 2.2fr 0.4fr;
-  grid-template-rows: 0.9fr 2fr 0.8fr 0.5fr 0.8fr;
-  grid-template-areas: "leftspace topspace rightspace" "leftspace logo rightspace" "leftspace Space rightspace" "leftspace Loading rightspace" "leftspace Bottomspace rightspace";
+/*loading*/
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
 }
 
-.leftspace { grid-area: leftspace; }
+.container-load{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  width: 80%;
+}
 
-.rightspace { grid-area: rightspace; }
-
-.topspace { grid-area: topspace; }
-
-.Space { grid-area: Space; }
-
-.Loading {
-  grid-area: Loading;
-  background-color: #353d40;
-  min-height: 15px;
+.loading{
   width: 100%;
-}
-
-.Bottomspace { grid-area: Bottomspace; }
-
-.logo { grid-area: logo; }
-
-
-/*Sign up site */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 0.4fr 2.2fr 0.4fr;
-  grid-template-rows: 0.3fr 2.5fr 0.2fr;
-  grid-template-areas: "leftspace1 topspace1 rightspace1" "leftspace1 main1 rightspace1" "leftspace1 bottomspace1 rightspace1";
-}
-
-.leftspace1 { grid-area: leftspace1; }
-
-.rightspace1 { grid-area: rightspace1; }
-
-.topspace1 { grid-area: topspace1; }
-
-.main1 { grid-area: main1; }
-
-form input{
-
-  color:  #a0a0a0;
-  font-size: 15px;
-  font-family: "montserrat";
   background-color: #363636;
-  border-color: #848484;
-  border-style: solid;
-  border-width: thin;
-  border-radius: 28px;
-  radius: 50%;
-  width: 100%;
-  height: 30px;
-
+  min-height: 40px;
+  border-radius: 30px;
+  -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
 }
 
-p {
-  color:  #848484;
-  font-size: 13px;
-  font-family: "montserrat";
-  text-align: right;
-  padding-top: 10px;
+/*sign up*/
+
+.help{
+  display:flex;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  min-height: 50px;
+  width: 20%;
+  margin-right: 5px;
+}
+
+.logosmall{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.overskrift{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  min-height:80px;
+  padding-bottom: 25px;
+}
+
+/* input*/
+
+.input{
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+  width: 100%;
+}
+
+input{
+  width: 93%;
+  background-color: #363636;
+  border: 1px solid #848484;
+  color: #EDEDED;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  border-radius: 30px;
+  -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+}
+
+.member{
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: #82B5BE;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
 }
 
 button{
   color:  #000;
   font-size: 15px;
-  font-family: "montserrat";
+  font-family: 'Montserrat', sans-serif;
   background-color: #82B5BE;
   border-color: #82b5be;
   border-style: solid;
@@ -103,14 +131,61 @@ button{
   radius: 50%;
   width: 30%;
   height: 30px;
-  text-align: center;
-  margin-left: 193px;
-  margin-top: 60px;
-
+  margin-top: 10%;
+  margin-right: 29px;
+  position: absolute;
+  right: 0;
 }
 
-.bottomspace1 { grid-area: bottomspace1; }
+input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(49, 82, 92, .5);
+}
 
+/*Headline*/
+
+h1{
+  color: #82B5BE;
+  font-size: 45px;
+  font-family: helvetica;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+
+h2{
+  font-size: 19px;
+  font-family: helvetica, sans-serif;
+  font-weight: 400;
+}
+
+/*sign in*/
+
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.dots{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+  border-radius: 60px;
+  min-height: 20px;
+  background-color: #fff;
+  width: 20px;
+}
+
+/*img*/
+.logo img{
+  width: 70%;
+  height: 70%;
+}
 
 /*media query, phone size Iphone8 */
 
