@@ -143,13 +143,11 @@ h1{
 }
 
 /*img*/
-
-<<<<<<< HEAD
 .logo img{
   width: 70%;
   height: 70%;
 }
-=======
+
 .grid-container1 {
   display: grid;
   grid-template-columns: 0.4fr 2.2fr 0.4fr;
@@ -235,14 +233,6 @@ h2{
   margin-top: 20px;
 
 }
-
-.dots{
-
-}
-
->>>>>>> 4cfed727db419b936002fa87d7fc3e496a6e0b5a
-
-
 /*media query, phone size Iphone8 */
 
   @media only screen and (max-width: 667px) {
