@@ -13,39 +13,136 @@ body{
   flex-direction: column;
   }
 
-
-/* Loading side */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 0.4fr 2.2fr 0.4fr;
-  grid-template-rows: 0.9fr 2fr 0.8fr 0.5fr 0.8fr;
-  grid-template-areas: "leftspace topspace rightspace" "leftspace logo rightspace" "leftspace Space rightspace" "leftspace Loading rightspace" "leftspace Bottomspace rightspace";
+main{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  min-height: 94vh;
+  width: 90%;
 }
 
-.leftspace { grid-area: leftspace; }
+/*GRID*/
 
-.rightspace { grid-area: rightspace; }
+/*loading*/
 
-.topspace { grid-area: topspace; }
+.load-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.6fr 1.6fr 0.8fr 0.25fr 0.75fr;
+  grid-template-areas: "spacetop" "logo" "spacemiddel" "loading" "spacebottom";
+}
 
-.Space { grid-area: Space; }
+.spacetop { grid-area: spacetop; }
+.logo {
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+}
 
-.Loading {
-  grid-area: Loading;
-  background-color: #353d40;
-  min-height: 15px;
+.spacemiddel { grid-area: spacemiddel; }
+.loading {
+  grid-area: loading;
+  background-color: #353D40;
+  min-height: 10px;
+  width: 100%;
+  border-radius: 30px;
+  -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  }
+
+.spacebottom { grid-area: spacebottom; }
+
+/*sign up*/
+
+.help{
+  display:flex;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  min-height: 50px;
+  width: 20%;
+}
+
+.logosmall{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.overskrift{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  min-height:80px;
+  padding-bottom: 25px;
+}
+
+/* input*/
+
+.input{
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
   width: 100%;
 }
 
-.Bottomspace { grid-area: Bottomspace; }
+input{
+  width: 93%;
+  background-color: #363636;
+  border: 1px solid #848484;
+  color: #EDEDED;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  border-radius: 30px;
+  -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+}
 
-.logo { grid-area: logo; }
+.member{
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: #82B5BE;
+  display: flex;
+  justify-content: flex-end;
+}
 
-/* progress bar */
+.buttom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30px;
+  width: 60px;
+}
 
-/*Sign up site */
+buttom{
+  background-color: #82B5BE;
+  color: #fff;
+}
 
+/*Headline*/
+
+h1{
+  font-family: helvetica, sans-serif;
+  font-size: 45px;
+  color: #82B5BE;
+}
+
+/*img*/
+
+.logo img{
+  width: 70%;
+  height: 70%;
+}
 
 
 /*media query, phone size Iphone8 */
