@@ -7,6 +7,7 @@
 body{
   background-color: #272727;
   color: #ededed;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   min-height: 100vh;
   display: flex;
@@ -21,6 +22,7 @@ main{
   margin-top: 5%;
   min-height: 94vh;
   width: 85%;
+  background-color: red;
 }
 
 h1{
@@ -155,6 +157,25 @@ h1{
   font-family: helvetica, sans-serif;
   font-size: 45px;
   color: #82B5BE;
+}
+
+h2{
+  font-size: 19px;
+  font-family: helvetica, sans-serif;
+  font-weight: 400;
+}
+
+h3{
+
+}
+
+
+/*sign in*/
+
+.name{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
 }
 
 /*img*/
