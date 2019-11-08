@@ -193,32 +193,29 @@ h2{
 .container-login{
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
   background-color: blue;
-  min-height: 50px;
   width: 100%;
-  justify-content: center;
 }
 
 .form-inline {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
+  width: 6%;
+
 }
 
-.form-inline label {
+/*.form-inline label {
   margin: 5px 10px 5px 0;
-}
+}*/
 
 .form-inline input {
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
+  margin: 0px 0px 0px 0;
   padding: 10px;
   background-color: #fff;
   border: 1px solid #ddd;
 }
 
-.form-inline button {
+/*.form-inline button {
   padding: 10px 20px;
   background-color: dodgerblue;
   border: 1px solid #ddd;
@@ -228,7 +225,7 @@ h2{
 
 .form-inline button:hover {
   background-color: royalblue;
-}
+}*/
 
 @media (max-width: 800px) {
   .form-inline input {
