@@ -39,24 +39,7 @@ main{
   margin-top: 30%;
   width: 80%;
 }
-/*
-#loading{
-  width: 1%;
-  background-color: red;
-  min-height: 40px;
-  border-radius: 30px;
-}
 
-#container-load {
-  width: 100%;
-  background-color: #ddd;
-  background-color: #363636;
-  min-height: 40px;
-  border-radius: 30px;
-  -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
-  -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
-  box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
-} 
 /*sign up*/
 
 #myProgress {
@@ -205,6 +188,16 @@ h2{
   min-height: 20px;
   background-color: #fff;
   width: 20px;
+}
+
+.container-login{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: blue;
+  min-height: 50px;
+  width: 100%;
+  justify-content: center;
 }
 
 /*img*/
