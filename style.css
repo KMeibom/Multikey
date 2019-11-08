@@ -201,7 +201,6 @@ h2{
   flex-flow: row;
   background-color: blue;
   width: 60%;
-	justify-items: center;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:5%;
@@ -212,7 +211,7 @@ h2{
   width: 6%;
 	align-items: center;
 }
-#pwd {
+  #pwd {
 	margin: 50%;
 }
 /*.form-inline label {
@@ -228,7 +227,7 @@ h2{
 }
 
 .forgot {
-	  font-size: 14px;
+	font-size: 14px;
   font-family: 'Montserrat', sans-serif;
   color: #82B5BE;
   display: flex;
