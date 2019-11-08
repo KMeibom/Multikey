@@ -3,15 +3,18 @@
   margin:0px;
 }
 
-body {
+html body {
   padding: 0;
-  margin: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+
   height: 100%;
   text-align: center;
 }
 
 section{
 min-height: 100%;
+padding-top: 150px;
 }
 
 a{
@@ -96,78 +99,99 @@ padding-top: 2px;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    padding-top: 80px;
+    padding-top: 100px;
 
 }
 
-.box1{
-    background-color: #272727;
-    height: 100px;
-    width: 100px;
-    text-align: left;
+  .box1{
+      background-color: #272727;
+      height: 100px;
+      width: 100px;
+  }
 
-}
+  .box2{
+      background-color: #717171;
+      height: 100px;
+      width: 100px;
+  }
 
-.box2{
-    background-color: #717171;
-    height: 100px;
-    width: 100px;
-}
+  .box3{
+      background-color: #e6b81c;
+      height: 100px;
+      width: 100px;
+  }
 
-.box3{
-    background-color: #e6b81c;
-    height: 100px;
-    width: 100px;
-}
+  .box4{
+      background-color: #31525c;
+      height: 100px;
+      width: 100px;
+  }
 
-.box4{
-    background-color: #31525c;
-    height: 100px;
-    width: 100px;
-}
+  .box5{
+      background-color: #82b5be;
+      height: 100px;
+      width: 100px;
+  }
+  .box6{
+      background-color: #a0a0a0;
+      height: 100px;
+      width: 100px;
+  }
 
-.box5{
-    background-color: #82b5be;
-    height: 100px;
-    width: 100px;
-}
-.box6{
-    background-color: #a0a0a0;
-    height: 100px;
-    width: 100px;
-}
+  .box7{
+      background-color: #ededed;
+      height: 100px;
+      width: 100px;
+  }
 
-.box7{
-    background-color: #ededed;
-    height: 100px;
-    width: 100px;
-}
-
-.box8{
-    background-color: #fff;
-    border-color: #000;
-    height: 100px;
-    width: 100px;
-    border: 1px;
-    border-style: solid;
-}
+  .box8{
+      background-color: #fff;
+      border-color: #000;
+      height: 100px;
+      width: 100px;
+      border: 1px;
+      border-style: solid;
+  }
 
 .wrappertext{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   padding-top: 10px;
-  background-color: pink;
   letter-spacing: 1px;
-  text-align: center;
+}
+
+.hex1{
+margin-left: -27px;
+
+}
+.hex2{
+margin-left: 14px;
+
+}
+.hex3{
+margin-left: 13px;
+}
+
+.hex4{
+margin-left: 5px;
+}
+
+.hex5{
+margin-left: 10px;
+}
+
+.hex8{
+padding-right: 7px;
 }
 
 
-
 #Logo img{
-  width: 240px;
 
-
+  padding-top: 30px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
 }
 
 #Typography{
@@ -184,4 +208,11 @@ padding-top: 2px;
 
 #forms{
 
+}
+
+footer
+{
+  color: #272727;
+  padding: 70px;
+  padding-top: 100px;
 }
