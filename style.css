@@ -19,7 +19,7 @@ main{
   margin-top: 5%;
   min-height: 94vh;
   width: 85%;
-  background-color: red;
+	background-color:red;
 }
 
 
@@ -41,17 +41,27 @@ main{
   width: 80%;
 }
 
-.loading{
-  width: 100%;
-  background-color: #363636;
-  min-height: 40px;
+/*sign up*/
+
+#myProgress {
+  width: 80%;
+  background-color: #353D40;
   border-radius: 30px;
-  -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+	margin-left:auto;
+	margin-right:auto;
+	min-height: 40px;
+	-webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
   -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
   box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+	margin-top:30%;
 }
 
-/*sign up*/
+#myBar {
+  width: 1%;
+  min-height: 40px;
+  background-color: #82B5B1;
+	border-radius: 30px;
+}
 
 .help{
   display:flex;
@@ -150,7 +160,7 @@ h1{
   font-family: helvetica;
   font-weight: 400;
   letter-spacing: 3px;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 1.5px 1.5px 1.5px #212020;
 }
 
 
@@ -179,6 +189,69 @@ h2{
   min-height: 20px;
   background-color: #fff;
   width: 20px;
+}
+
+.container-login{
+  display: flex;
+  flex-flow: row;
+  background-color: blue;
+  width: 60%;
+	justify-items: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+}
+
+.form-inline {
+  display: flex;
+  width: 6%;
+	align-items: center;
+}
+#pwd {
+	margin: 50%;
+}
+/*.form-inline label {
+  margin: 5px 10px 5px 0;
+}*/
+
+.form-inline input {
+  margin: 0px 0px 0px 0px;
+  padding-left: 17px;
+	padding-right:17px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.forgot {
+	  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: #82B5BE;
+  display: flex;
+  justify-content: center;
+	margin-top:5%;
+}
+
+/*.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}*/
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: row;
+    align-items: stretch;
+  }
 }
 
 /*img*/
