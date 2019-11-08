@@ -201,7 +201,6 @@ h2{
   display: flex;
   flex-flow: row wrap;
   width: 6%;
-
 }
 
 /*.form-inline label {
@@ -209,7 +208,7 @@ h2{
 }*/
 
 .form-inline input {
-  margin: 0px 0px 0px 0;
+  margin: 0px 0px 0px 0px;
   padding: 10px;
   background-color: #fff;
   border: 1px solid #ddd;
