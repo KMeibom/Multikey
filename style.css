@@ -199,7 +199,7 @@ h2{
 .container-login{
   display: flex;
   flex-flow: row;
-  background-color: blue;
+  /*background-color: blue;*/
   width: 60%;
 	margin-left:auto;
 	margin-right:auto;
