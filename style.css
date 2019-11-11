@@ -57,7 +57,6 @@ main{
 
 .mbsc-ios .mbsc-np-btn:first-child {
     border-left: 0;
-	border-color:none;
 }
 
 .mbsc-np-btn {
@@ -72,6 +71,16 @@ main{
 	background-color:#717171;
 		border:0.5px solid;
 	border-color:#272727;
+}
+
+.mbsc-np-btn:focus
+{
+  outline: 0;
+}
+
+.mbsc-np-btn:hover
+{
+  background-color:#848484;
 }
 
 .mbsc-fr-w {
