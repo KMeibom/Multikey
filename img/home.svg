@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="106" viewBox="0 0 320 106">
+  <defs>
+    <filter id="Skærmbillede_2019-11-01_kl._13.34.21" x="-9" y="-6" width="337" height="124.457" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="320" height="106"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="320" height="106" fill="#fff"/>
+    <g id="Group_193" data-name="Group 193" transform="translate(-28 -587)">
+      <g id="Group_168" data-name="Group 168" transform="translate(28 587.082)">
+        <g transform="matrix(1, 0, 0, 1, 0, -0.08)" filter="url(#Skærmbillede_2019-11-01_kl._13.34.21)">
+          <path id="Skærmbillede_2019-11-01_kl._13.34.21-2" data-name="Skærmbillede 2019-11-01 kl. 13.34.21" d="M14.595,0h289.81C312.466,0,319,6.178,319,13.8V92.657c0,7.621-6.534,13.8-14.595,13.8H14.595C6.534,106.457,0,100.278,0,92.657V13.8C0,6.178,6.534,0,14.595,0Z" transform="translate(0 0)" fill="#890d0d"/>
+        </g>
+        <g id="Group_170" data-name="Group 170" transform="translate(61.837 29.625)">
+          <g id="Group_62" data-name="Group 62" transform="translate(0 0)">
+            <g id="Group_165" data-name="Group 165" transform="translate(0 0)">
+              <path id="iconmonstr-home-1" d="M36.276,17,63.483,41.283v26.6H45.345v-17.4H27.207v17.4H9.069v-26.6ZM72.552,33.511,36.276,1.184,0,33.468l4.114,4.248L36.276,9.1,68.438,37.759Z" transform="translate(0 -1.184)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Ellipse_94" data-name="Ellipse 94" transform="translate(36 7.918)" fill="none" stroke="#fff" stroke-width="3">
+          <ellipse cx="62.5" cy="59.5" rx="62.5" ry="59.5" stroke="none"/>
+          <ellipse cx="62.5" cy="59.5" rx="61" ry="58" fill="none"/>
+        </g>
+      </g>
+      <text id="My_Home" data-name="My Home" transform="translate(237 615)" fill="#f2f0f0" font-size="15" font-family="PingFangHK-Medium, PingFang HK" font-weight="500" letter-spacing="0.012em"><tspan x="0" y="0">My Home</tspan></text>
+    </g>
+  </g>
+</svg>
