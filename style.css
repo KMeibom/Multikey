@@ -19,7 +19,7 @@ main{
   margin-top: 5%;
   min-height: 94vh;
   width: 85%;
-	/*background-color:red;*/
+	background-color:red;
 }
 
 
@@ -307,6 +307,25 @@ h2{
 .form-inline button:hover {
   background-color: royalblue;
 }*/
+
+/*forside*/
+
+.container-menu{
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 50px;
+}
+
+.container-kort{
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 900px;
+  margin-top: 5%;
+}
 
 @media (max-width: 800px) {
   .form-inline input {
