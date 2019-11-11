@@ -49,6 +49,8 @@ main{
     width: 100%;
     font-size: 1.375em;
 	border-radius: 20px;
+		transform:translateY(0%);
+		transition:transform 0.5s ease-in;
 }
 
 .mbsc-np-row {
@@ -69,7 +71,7 @@ main{
     height: 2.5em;
     -webkit-user-select: none;
 	background-color:#717171;
-		border:0.01px solid;
+	border:0.02px solid;
 	border-color:#272727;
 }
 
@@ -99,26 +101,6 @@ main{
     -webkit-text-size-adjust: 100%;
 }
 
-.mbsc-np-btn #1
-{
-	border: 2px #272727;
-	border-radius: 15px; 
-}
-
-#3
-{
-	
-}
-
-#slet
-{
-	
-}
-
-#ok
-{
-	
-}
 /*sign up*/
 
 #myProgress {
