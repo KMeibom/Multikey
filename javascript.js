@@ -17,3 +17,15 @@ function move() {
   }
 }
 window.onload = move;
+
+var kort[];
+
+kort[0] = 'img/fitnessworld.svg';
+kort[1] = 'img/rejsekort.svg'
+kort[2] = 'img/føtex.svg';
+
+kort[3] = 'img/home.svg';
+kort[4] = 'img/home2.svg';
+kort[5] = 'img/ucl.svg';
+kort[6] = 'img/abtion.svg';
+
