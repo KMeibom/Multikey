@@ -99,7 +99,7 @@ padding-top: 2px;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 80px;
 
 }
 
@@ -164,6 +164,7 @@ padding-top: 2px;
 .hex1{
 margin-left: -27px;
 
+
 }
 .hex2{
 margin-left: 14px;
@@ -188,14 +189,36 @@ padding-right: 7px;
 
 #Logo img{
 
-  padding-top: 30px;
+  padding-top: 80px;
   width: 250px;
   justify-content: center;
   align-items: center;
 }
 
 #Typography{
+  padding-top: 120px;
+  justify-content: center;
+  align-items: center;
+}
 
+.wrappertypography{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  color: #272727;
+}
+
+.typo1 p{
+  padding-top: 80px;
+  color: red;
+
+}
+.typo2{
+  padding-top: 10px;
+}
+.typo3{
+  padding-top: 10px;
 }
 
 #menu{
