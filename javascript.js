@@ -1,4 +1,4 @@
-var i = 0;
+/*var i = 0;
 function move() {
   if (i == 0) {
     i = 1;
@@ -16,16 +16,15 @@ function move() {
     }
   }
 }
-window.onload = move;
+window.onload = move;*/
 
-var kort[];
 
-kort[0] = 'img/fitnessworld.svg';
-kort[1] = 'img/rejsekort.svg'
-kort[2] = 'img/føtex.svg';
+// sharekey //
 
-kort[3] = 'img/home.svg';
-kort[4] = 'img/home2.svg';
-kort[5] = 'img/ucl.svg';
-kort[6] = 'img/abtion.svg';
+document.getElementById('button').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "flex";
+});
 
+document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "none";
+});
