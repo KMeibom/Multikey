@@ -339,7 +339,6 @@ h2{
 
 
 .fw{
-  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -374,15 +373,6 @@ h2{
 	padding: 20px;
 	position: relative;
 	border-radius: 4px;
-  opacity: 20%;
-}
-
-input {
-	margin: 15px auto;
-	display: block;
-	width: 50%;
-	padding: 8px;
-	border: 1px solid gray;
 }
 
 .close {
