@@ -157,6 +157,8 @@ main{
 }
 
 input{
+  display: flex;
+
   width: 93%;
   background-color: #363636;
   border: 1px solid #848484;
