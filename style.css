@@ -404,6 +404,7 @@ h2{
   }
 }
 
+
 /*img*/
 .logo img{
   width: 70%;
@@ -414,4 +415,5 @@ h2{
 
   @media only screen and (max-width: 667px) {
     /*alt samme style skal ind her*/
+
   }
