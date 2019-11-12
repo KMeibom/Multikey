@@ -327,6 +327,20 @@ h2{
   margin-top: 5%;
 }
 
+
+
+/* --------- sharekey-------*/
+
+.fw img{
+  width: 85%;
+  border-radius: 24px;
+
+}
+
+
+/*---------- sendkey--------*/
+
+
 @media (max-width: 800px) {
   .form-inline input {
     margin: 10px 0;

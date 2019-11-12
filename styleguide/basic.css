@@ -14,7 +14,7 @@ html body {
 
 section{
 min-height: 100%;
-padding-top: 150px;
+padding-top: 160px;
 }
 
 a{
@@ -47,14 +47,14 @@ h2{
   font-family: "montserrat";
   font-weight: 500;
   color: #272727;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 h3{
   font-family: "montserrat";
   font-weight: 500;
   color: #272727;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 header{
@@ -99,7 +99,7 @@ padding-top: 2px;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 110px;
 
 }
 
@@ -164,6 +164,7 @@ padding-top: 2px;
 .hex1{
 margin-left: -27px;
 
+
 }
 .hex2{
 margin-left: 14px;
@@ -183,22 +184,86 @@ margin-left: 10px;
 
 .hex8{
 padding-right: 7px;
+
 }
 
 
 #Logo img{
 
-  padding-top: 30px;
+  padding-top: 110px;
   width: 250px;
   justify-content: center;
   align-items: center;
 }
 
+#logo h1{
+  margin-top: 20px;
+}
+
 #Typography{
+  padding-top: 170px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrappertypography{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 100px;
+  letter-spacing: 1px;
+  color: #272727;
+  font-size: 25px;
+  line-height: 47px;
+}
+
+
+.boxtitle {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 33.33%;
+  margin-left: 60px;
+}
+.boxsize{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 33.33%;
+  margin-right: 50px;
+}
+.boxregular{
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+}
+
+.fonttype1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
 }
 
-#menu{
+h3{
+  padding-top: 60px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: lowercase;
+  color: #272727;
+  font-family: helvetica;
+  width: 70%;
+  justify-content: center;
+}
+
+h4 {
+  text-transform: lowercase;
+  font-size: 17px;
+  font-family: helvetica;
+  font-weight: 100;
+  color: #272727;
 
 }
 
@@ -206,9 +271,75 @@ padding-right: 7px;
 
 }
 
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+
+}
+
+button{
+  color:  #000;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #82B5BE;
+  border-color: #82b5be;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 28px;
+  radius: 50%;
+  height: 32px;
+  position: absolute;
+  width: 8%;
+
+}
+
+#links{
+}
+
+.member{
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: #82B5BE;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
 #forms{
 
 }
+
+.input{
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+  width: 27%;
+  margin-top: -30px;
+
+}
+
+input{
+  width: 93%;
+  background-color: #363636;
+  border: 1px solid #848484;
+  color: #EDEDED;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  margin-left: 370px;
+  border-radius: 30px;
+  -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+
+}
+
 
 footer
 {
