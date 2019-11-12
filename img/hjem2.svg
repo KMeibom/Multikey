@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="306" height="193" viewBox="0 0 306 193">
+  <defs>
+    <clipPath id="clip-custom_1">
+      <rect width="306" height="193"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+    <rect width="306" height="193" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="306" height="193" rx="14" fill="#880d0d"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(57.837 30.707)">
+      <g id="Group_62" data-name="Group 62" transform="translate(0 0)">
+        <g id="Group_165" data-name="Group 165" transform="translate(0 0)">
+          <path id="iconmonstr-home-1" d="M36.276,17,63.483,41.283v26.6H45.345v-17.4H27.207v17.4H9.069v-26.6ZM72.552,33.511,36.276,1.184,0,33.468l4.114,4.248L36.276,9.1,68.438,37.759Z" transform="translate(0 -1.184)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(32 9)" fill="none" stroke="#fff" stroke-width="3">
+      <ellipse cx="62.5" cy="59.5" rx="62.5" ry="59.5" stroke="none"/>
+      <ellipse cx="62.5" cy="59.5" rx="61" ry="58" fill="none"/>
+    </g>
+    <text id="My_Home" data-name="My Home" transform="translate(205 29)" fill="#f2f0f0" font-size="15" font-family="PingFangHK-Medium, PingFang HK" font-weight="500" letter-spacing="0.012em"><tspan x="0" y="0">My Home</tspan></text>
+  </g>
+</svg>

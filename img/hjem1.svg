@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="306" height="193" viewBox="0 0 306 193">
+  <defs>
+    <clipPath id="clip-custom_1">
+      <rect width="306" height="193"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+    <rect width="306" height="193" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="306" height="193" rx="14" fill="#145671"/>
+    <text id="Mikkel_Høpners_hjem" data-name="Mikkel Høpners hjem" transform="translate(134 28)" fill="#f2f0f0" font-size="15" font-family="PingFangHK-Medium, PingFang HK" font-weight="500" letter-spacing="0.012em"><tspan x="0" y="0">Mikkel Høpners hjem</tspan></text>
+    <g id="Group_2" data-name="Group 2" transform="translate(-1565.999 -201.086)">
+      <path id="Path_222" data-name="Path 222" d="M1689.819,226.485c-1.952-.448-3.769-.841-2.889-2.495,2.679-5.032.71-7.723-2.119-7.723-2.885,0-4.8,2.795-2.118,7.723.906,1.663-.979,2.056-2.889,2.495-1.745.4-1.81,1.263-1.8,2.769l0,.565h13.618l0-.547C1691.629,227.754,1691.57,226.888,1689.819,226.485Z" transform="translate(0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
