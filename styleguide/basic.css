@@ -295,6 +295,29 @@ button{
 
 }
 
+.button-edit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4.5%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.button-edit button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#E6B81C;
+  padding: 5px;
+  width: 5.5%;
+  color: #fff;
+  border-radius: 30px;
+
+}'
+
 #links{
 }
 
@@ -339,6 +362,55 @@ input{
   box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
 
 }
+
+
+
+.swipe input[type="range"] {
+    width: 280px;
+    height: 40px;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#82B5BE), to(#6B9FAF));
+    -webkit-appearance: none;
+    border-radius: 32px;
+    padding: 3px;
+    transition: opacity 0.5s;
+    position: relative;
+    margin-left: 13px;
+    border-color: #272727;
+    margin-top: 70px;
+
+}
+
+.swipe input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border-radius: 32px;
+    background: -webkit-linear-gradient(top, #ededed 0%,#fff 50%,#fff 51%,#ededed 100%);
+    z-index: 1;
+    width: 40px;
+    position: relative;
+    height: 40px;
+}
+
+.swipe input[type="range"]:before {
+    content: "Share key";
+    color: #272727;
+    position: absolute;
+    left: 100px;
+    top: 11px;
+    z-index: 1;
+    font-size: 21px;
+}
+
+.swipe input[type="range"]::-webkit-slider-thumb:before {
+    color: #8a8a8a;
+    position: absolute;
+    left: 5px;
+    top: -10px;
+    z-index: 1;
+    font-size: 56px;
+    font-weight: bold;
+    content: "→";
+}
+
 
 
 footer
