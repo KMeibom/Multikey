@@ -295,6 +295,29 @@ button{
 
 }
 
+.button-edit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4.5%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.button-edit button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#E6B81C;
+  padding: 5px;
+  width: 5.5%;
+  color: #fff;
+  border-radius: 30px;
+
+}'
+
 #links{
 }
 
@@ -319,6 +342,8 @@ button{
   min-height: 50px;
   width: 27%;
   margin-top: -30px;
+  margin-left: 55px;
+
 
 }
 
