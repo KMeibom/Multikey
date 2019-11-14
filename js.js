@@ -24,3 +24,6 @@ $('#container-kort').on('click', '.li-kort', function () {
 	
 });
 
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
