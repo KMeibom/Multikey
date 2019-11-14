@@ -56,31 +56,24 @@
         <div class="help"><img src="img/plus.svg" alt="Tilføj kort"></div>
       </section>
 		<script src="js.js" type="text/javascript"></script>
-		  
-<dropdown>
-  <input id="toggle2" type="checkbox">
-  <label for="toggle2" class="animate"><div id ="myAnimation"></div><i class="fa fa-bars float-right"></i></label>
-
-  <ul class="animate">
-
-    <h4>Fitness World</h4>
-    <li class="animate"><img src="img/share2.svg">&nbsp;&nbsp;Share key<i class="fa fa-code float-right"></i></li>
-    <li class="animate"><img src="img/icon/delete.svg">&nbsp;&nbsp;&nbsp;&nbsp;Delete<i class="fa fa-arrows-alt float-right"></i></li>
-    <li class="animate"><img src="img/icon/star2.svg">&nbsp;&nbsp;&nbsp;Favorite<i class="fa fa-cog float-right"></i></li>
-
-    <h4>Shares</h4>
-    <li class="animate"><img src="img/icon/person.svg">&nbsp;&nbsp;&nbsp;Aviaya Lindestrøm<i class="fa fa-code float-right"></i></li>
-    <div class="sharetext">6 Hours</div>
-    <li class="animate"><img src="img/icon/person.svg">&nbsp;&nbsp;&nbsp;Casper Sieck Overbeck<i class="fa fa-arrows-alt float-right"></i></li>
-    <div class="sharetext">6 Hours</div>
-  </ul>
-</dropdown>
-
 			  <script src="js.js" type="text/javascript"></script>
 		  
 	  <section class="container-kort" id="container-kort">
-				<div class ="li-kort" id="select"> <img src="img/fitnessworld.svg"></div>
-				<div class= "li-kort" id="kort2"> <img src="img/hjem2.svg"></div>
+				<div class ="li-kort" id="select" onclick="myFunction()"> <img src="img/fitnessworld.svg"></div>
+		  <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+  <h4>Fitness world</h4>
+    <a href="#">Share key</a>
+    <a href="#">Delete</a>
+    <a href="#">Favorite</a>
+    
+    <h4>Shares</h4>
+    <a href="#">Aviaya Lindestrøm</a>
+    <a href="#">Casper Sieck Overbeck</a>
+  </div>
+</div>
+				<div class= "li-kort" id="kort2" > <img src="img/hjem2.svg"></div>
 				<div class= "li-kort" id="kort3"> <img src="img/hjem1.svg"></div>
 				<div class= "li-kort" id="kort4"> <img src="img/ucl.svg"></div>
 				<div class= "li-kort" id="kort5"> <img src="img/abtion.svg"></div>
