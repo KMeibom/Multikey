@@ -155,6 +155,40 @@ nav-links nav-active{
 }
 
 /*----pop up----*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-size: 13px;
+  background-color: #31525C;
+  font-family: 'montserrat', sans-serif;
+  min-width: 300px;
+  overflow: auto;
+  border: 2px solid #31525C;
+  border-radius: 17px;
+  box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding-bottom: 10px;
+ 
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #31525C;}
+
+.show {display: block;}
+
+/*
 .float-right{
   float: right;
 }
@@ -162,11 +196,11 @@ nav-links nav-active{
  font-size: .8em;
   line-height: 22px !important;
 }
-dropdown{
+.dropdown{
    display: inline-block;
    list-style: none;
 }
-dropdown label:hover, dropdown ul li:hover{
+.dropdown label:hover, .dropdown ul li:hover{
   background-color: #31525C;
   color: white;
   cursor: pointer;
@@ -175,17 +209,17 @@ dropdown label:hover, dropdown ul li:hover{
   list-style: none;
 }
 
-dropdown label{
+.dropdown label{
   color: red;
   position: relative;
   z-index: 2;
   list-style: none;
 }
-dropdown input{
+.dropdown input{
   display: none;
   list-style: none;
 }
-dropdown input ~ ul{
+.dropdown input ~ ul{
   position: relative;
   visibility: hidden;
   opacity: 0;
@@ -194,13 +228,13 @@ dropdown input ~ ul{
   list-style: none;
 
 }
-dropdown input:checked + label{
+.dropdown input:checked + label{
   background-color: yellow;
   color: grey;
   list-style: none;
 }
 
-dropdown input:checked ~ ul{
+.dropdown input:checked ~ ul{
   visibility: visible;
   background-color: #31525C;
   border: 2px solid #31525C;
@@ -212,7 +246,7 @@ dropdown input:checked ~ ul{
   list-style: none;
   line-height: 35px;
 }
-
+*/
 .animate{
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
@@ -321,13 +355,14 @@ li .animate{
 {
 
 ul.nav-links.nav-active{
-		height: 100%;
-    max-width: 100%;
+	height: 100%;
+    width: 100%;
     overflow: visible;
-		position:absolute;
+	position:absolute;
     border: 2px solid #272727;
     border-top-right-radius: 17px;
     border-bottom-right-radius: 17px;
+	display:flex;
 	}
 
 	nav{
@@ -561,6 +596,11 @@ h5{
   font-size: 15px;
 }
 
+h6{
+  color: #ededed;
+  margin-top: 2%;
+  font-size: 15px;
+}
 /*sign in*/
 
 .name{
@@ -689,7 +729,7 @@ h5{
 }
 
 .container-kort:first-child {
-	
+	padding-bottom:10%;
 }
 	
 /* ------ Kort ------*/
@@ -781,7 +821,7 @@ h5{
 }
 
 	/*------ dropdown kort------*/
-
+/*
 .float-right{
   float: right;
 }
@@ -789,11 +829,11 @@ h5{
  font-size: .8em;
   line-height: 22px !important;
 }
-dropdown{
+.dropdown{
    display: inline-block;
    list-style: none;
 }
-dropdown label:hover, dropdown ul li:hover{
+.dropdown label:hover, .dropdown ul li:hover{
   background-color: #31525C;
   color: white;
   cursor: pointer;
@@ -802,17 +842,17 @@ dropdown label:hover, dropdown ul li:hover{
   list-style: none;
 }
 
-dropdown label{
+.dropdown label{
   color: red;
   position: relative;
   z-index: 2;
   list-style: none;
 }
-dropdown input{
+.dropdown input{
   display: none;
   list-style: none;
 }
-dropdown input ~ ul{
+.dropdown input ~ ul{
   position: relative;
   visibility: hidden;
   opacity: 0;
@@ -821,13 +861,13 @@ dropdown input ~ ul{
   list-style: none;
 
 }
-dropdown input:checked + label{
+.dropdown input:checked + label{
   background-color: yellow;
   color: grey;
   list-style: none;
 }
 
-dropdown input:checked ~ ul{
+.dropdown input:checked ~ ul{
   visibility: visible;
   background-color: #31525C;
   border: 2px solid #31525C;
@@ -840,15 +880,14 @@ dropdown input:checked ~ ul{
   line-height: 35px;
 }
 
+	
 .animate{
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -ms-transition: all .3s;
   transition: all .3s;
   backface-visibility:hidden;
-  -webkit-backface-visibility:hidden; /* Chrome and Safari */
-  -moz-backface-visibility:hidden; /* Firefox */
-  -ms-backface-visibility:hidden; /* Internet Explorer */
+  -webkit-backface-visibility:hidden; 
 }
 
 ul .animate{
@@ -860,10 +899,10 @@ li .animate{
 }
 
 }
-
+*/
 /*---------- sendkey--------*/
 
-
+}
 @media (max-width: 800px) {
   .form-inline input {
     margin: 10px 0;
