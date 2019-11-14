@@ -19,7 +19,6 @@ main{
   margin-top: 5%;
   min-height: 94vh;
   width: 85%;
-  background-color:red;
 }
 
 /*navigation*/
@@ -465,6 +464,19 @@ h2{
   font-weight: 400;
 }
 
+h4{
+  font-size: 17px;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 6%;
+}
+
+h5{
+  color: #ededed;
+  margin-top: 2%;
+  font-size: 15px;
+}
+
 /*sign in*/
 
 .name{
@@ -692,19 +704,26 @@ h2{
 }
 dropdown{
    display: inline-block;
+   list-style: none;
 }
 dropdown label:hover, dropdown ul li:hover{
   background-color: #31525C;
   color: white;
   cursor: pointer;
+  text-decoration: none;
+  line-height: 30px;
+  list-style: none;
 }
+
 dropdown label{
-  color: #1ABC9C;
+  color: red;
   position: relative;
   z-index: 2;
+  list-style: none;
 }
 dropdown input{
   display: none;
+  list-style: none;
 }
 dropdown input ~ ul{
   position: relative;
@@ -712,18 +731,26 @@ dropdown input ~ ul{
   opacity: 0;
   top: 100px;
   z-index: 1;
+  list-style: none;
 
 }
 dropdown input:checked + label{
   background-color: yellow;
   color: grey;
+  list-style: none;
 }
 
 dropdown input:checked ~ ul{
   visibility: visible;
   background-color: #31525C;
+  border: 2px solid #31525C;
+  border-radius: 17px;
+  padding: 20px;
   opacity: 1;
-  top: 0;
+  top: 10px;
+  bottom: 0px;
+  list-style: none;
+  line-height: 35px;
 }
 
 .animate{
@@ -735,6 +762,14 @@ dropdown input:checked ~ ul{
   -webkit-backface-visibility:hidden; /* Chrome and Safari */
   -moz-backface-visibility:hidden; /* Firefox */
   -ms-backface-visibility:hidden; /* Internet Explorer */
+}
+
+ul .animate{
+  text-decoration: none;
+}
+
+li .animate{
+  text-decoration: none;
 }
 
 }
