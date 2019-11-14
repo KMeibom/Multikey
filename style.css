@@ -289,6 +289,12 @@ ul.nav-links.nav-active{
 
 /*navigation færdig*/
 
+/*POP-UP*/
+
+
+
+/*POP-UP-FÆRDIG*/
+
 
 /*loading*/
 
@@ -599,7 +605,6 @@ h5{
 }
 
 .container-kort{
-  background-color: pink;
   display: flex;
   flex-direction: column;
   width: 100%;
