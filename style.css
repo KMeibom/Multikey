@@ -174,7 +174,7 @@ nav-links nav-active{
   box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
   z-index: 1;
   padding-bottom: 10px;
- 
+
 }
 
 .dropdown-content a {
@@ -269,8 +269,9 @@ li .animate{
 .sharetext{
   font-size: 10px;
   font-family: 'montserrat', sans-serif;
-  line-height: 10px;
-  margin-left: 30px;
+  line-height: 20px;
+  margin-left: 35px;
+  padding-bottom: 0px;
 }
 
 /*loading*/
@@ -583,11 +584,15 @@ h2{
   font-weight: 400;
 }
 
-h4{
+.pop-overskrift{
   font-size: 17px;
   font-family: helvetica, sans-serif;
   font-weight: bold;
   margin-top: 6%;
+  color: white;
+  padding: 16px 0px 0px 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 h5{
@@ -675,7 +680,7 @@ h6{
 }*/
 
 /*forside*/
-	
+
 .container-menu{
   display: flex;
   flex-direction: column;
@@ -692,14 +697,14 @@ h6{
 	margin-right:2%;
 	position:relative;
 	height:617px;
-	
+
 	/*
 	    width: 200px;
     color:#fff;
     position: relative;
     text-align:center; */
 }
-	
+
 /*
 .kort-selected{
 	list-style:none;
@@ -731,7 +736,7 @@ h6{
 .container-kort:first-child {
 	padding-bottom:10%;
 }
-	
+
 /* ------ Kort ------*/
 	/*
 #myAnimation {
@@ -880,14 +885,14 @@ h6{
   line-height: 35px;
 }
 
-	
+
 .animate{
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -ms-transition: all .3s;
   transition: all .3s;
   backface-visibility:hidden;
-  -webkit-backface-visibility:hidden; 
+  -webkit-backface-visibility:hidden;
 }
 
 ul .animate{
