@@ -1,5 +1,4 @@
 var animating = false;
-
 $('#container-kort').on('click', '.li-kort', function () {
     
     var clickedDiv = $(this).closest('div'),
@@ -20,8 +19,7 @@ $('#container-kort').on('click', '.li-kort', function () {
             clickedDiv.prependTo("#container-kort");
             animating = false; 
         });
-    }
-	
+    }	
 });
 
 function myFunction() {

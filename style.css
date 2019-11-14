@@ -426,9 +426,8 @@ ul.nav-links.nav-active{
 		z-index:999!important;
 	}
 
-	.burger toggle{
+	.toggle .burger {
 		z-index:99;
-		background:white;
 	}
 
   .line1{
@@ -578,6 +577,7 @@ input{
   color: #82B5BE;
   display: flex;
   justify-content: flex-end;
+	margin-bottom:5%;
 }
 
 .button{
