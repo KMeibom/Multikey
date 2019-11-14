@@ -1,48 +1,24 @@
-var pos = 0; 
-var pos2 = 150;
-var elem = document.getElementById("myAnimation");   
-var elem2 = document.getElementById("myAnimation2");    
-var forward = true;    
+var animating = false;
 
-var position = document.getElementById("container-kort");
-document.getElementById("myAnimation") = position.offsetTop;
-
-var position2 = document.getElementById("container-kort");
-document.getElementById("myAnimation2") = position.offsetTop;
-
-
-function myMove() {
- if (forward){
-   moveForward(); 
- }else{
-   moveBack();  
- }
-}
-function moveForward(){
-   var id = setInterval(frame, 5);
-   function frame() {
-       if (pos > 150) {
-         clearInterval(id);
-         forward=false;    
-       } else {
-         pos++; 
-         pos2--;
-         elem.style.top = pos + 'px'; 
-         elem2.style.top = pos2 + 'px';  
-       }
-     }
-} 
-function moveBack(){
-   var id = setInterval(frame, 5);
-   function frame() {
-       if (pos == 0) {
-         clearInterval(id);
-         forward=true;    
-       } else {
-         pos--; 
-         pos2++;
-         elem.style.top = pos + 'px'; 
-         elem2.style.top = pos2 + 'px';  
-       }
-     }
-}     
+$('#container-kort').on('click', '.li-kort', function () {
+    
+    var clickedDiv = $(this).closest('div'),
+        prevDiv = $("#container-kort > :first-child"),
+        distance = clickedDiv.offset().top - prevDiv.offset().top;
+    
+    if (!clickedDiv.is(":first-child")) {
+        animating = true;
+        $.when(clickedDiv.animate({
+           top: -distance
+        }, 500),
+        prevDiv.animate({
+            top: distance
+        }, 500)).done(function () {
+            prevDiv.css('top', '0px');
+            clickedDiv.css('top', '0px');
+            prevDiv.insertBefore(clickedDiv);
+            clickedDiv.prependTo("#container-kort");
+            animating = false;
+        });
+    }
+});
