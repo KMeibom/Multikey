@@ -2,33 +2,67 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>sendkey</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sharekey</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
   <body>
+    <main>
 
-<main>
+<div class="kryds">
+   <button1 onclick="ReplacePage ();"> + </button1>
+</div>
+
+<!--- Java -->
+
+      <script type="text/javascript">
+      function ReplacePage (){
+        window.location.replace ("forside.html")
+      }
+      document.querySelector("input[type=\"range\"]").onmouseup = function() {
+          var theRange = this.value;
+          if(theRange == 100) {
+
+      			unlock();
+
+      		} else {
+      			document.init = setInterval(function() {
+      				if(document.querySelector("input[type=\"range\"]").value != 0) {
+      					document.querySelector("input[type=\"range\"]").value = theRange--;
+      				}
+      			}, 1);
+      		}
+      }
+
+      document.querySelector("input[type=\"range\"]").onmousedown = function() {
+      		clearInterval(document.init);
+      }
+
+      function unlock() {
+          document.querySelector("input[type=\"range\"]").style.opacity = "0";
+      }
+
+      </script>
+
+      <!--- -->
 
 
-  <span class="close">X</span>
+<div class="fw">
+  <img src="img/fitnessworld.svg" alt="fitnessworld kort">
+</div>
 
-  <div class="fw">
-    <img src="img/fitnessworld.svg" class="fw" alt="fitnessworld kort">
-  </div>
+<section class="name1">
+  <h2> Aviaya Lindestrøm </h2>
+  +45 12 34 55 66
+</section>
 
-  <section class="name">
-    <h2>Aviaya Lindestrøm</h2>
-      +45 12 34 56 78
-  </section>
+<div class="swipe"> <input type="range" class="slideToUnlock" value="0" max="100"> </div>
 
-    <div class="button"><button type="submit" name="Sign up">Share</button></div>
-
-
-
-</main>
-
-
-
+    </main>
   </body>
+
+<script>
+
+</script>
+
 </html>
