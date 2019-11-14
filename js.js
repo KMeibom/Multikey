@@ -1,30 +1,48 @@
-const burger = document.querySelector('.burger');
-const nav = document.querySelector('.nav-links');
-const navLinks = document.querySelectorAll('.nav-links li');
+var pos = 0; 
+var pos2 = 150;
+var elem = document.getElementById("myAnimation");   
+var elem2 = document.getElementById("myAnimation2");    
+var forward = true;    
 
-const navSlide=()=>
-{
-	burger.addEventListener('click',()=>
-	{
-		//toggle nav
-		nav.classList.toggle('nav-active');
+var position = document.getElementById("container-kort");
+document.getElementById("myAnimation") = position.offsetTop;
 
-			//animate links
-	navLinks.forEach((link,index)=>
-	{
-		if (link.style.animation)
-			{
-				link.style.animation='';
-			}
-		else
-		{
-		link.style.animation=`navLinkFade 0.5s ease forwards ${index / 5 + 0.5}s`;
-		}
-	});
-		//burger animation
-		burger.classList.toggle('toggle');
-});
+var position2 = document.getElementById("container-kort");
+document.getElementById("myAnimation2") = position.offsetTop;
 
+
+function myMove() {
+ if (forward){
+   moveForward(); 
+ }else{
+   moveBack();  
+ }
 }
-
-navSlide();
+function moveForward(){
+   var id = setInterval(frame, 5);
+   function frame() {
+       if (pos > 150) {
+         clearInterval(id);
+         forward=false;    
+       } else {
+         pos++; 
+         pos2--;
+         elem.style.top = pos + 'px'; 
+         elem2.style.top = pos2 + 'px';  
+       }
+     }
+} 
+function moveBack(){
+   var id = setInterval(frame, 5);
+   function frame() {
+       if (pos == 0) {
+         clearInterval(id);
+         forward=true;    
+       } else {
+         pos--; 
+         pos2++;
+         elem.style.top = pos + 'px'; 
+         elem2.style.top = pos2 + 'px';  
+       }
+     }
+}     
