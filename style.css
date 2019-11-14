@@ -19,12 +19,18 @@ main{
   margin-top: 5%;
   min-height: 94vh;
   width: 85%;
+  background-color:red;
 }
 
 /*navigation*/
 
 nav{
 	width:80%;
+  z-index: 0;
+}
+
+nav-links nav-active{
+  z-index:0;
 }
 
 .burger{
@@ -546,9 +552,8 @@ h2{
   display: flex;
   flex-direction: column;
   width: 90%;
-	margin-left:auto;
-	margin-right:auto;
-	padding-top:10%;
+	margin-left:2%;
+	margin-right:2%;
 	position:relative;
 	height:617px;
 }
@@ -557,6 +562,7 @@ h2{
 	list-style:none;
 		margin-bottom:10%;
 	position:relative;
+  z-index:0;
 }
 
 .kort-liste{
@@ -578,9 +584,9 @@ display:flex;
 }
 
 /* ------ Kort ------*/
-#myAnimation {	
+#myAnimation {
 	position:relative;
-	z-index:6;
+	z-index:1;
 	background-size:306px 193px;
 	background-image:url("img/fitnessworld.svg");
 	height:193px;
@@ -611,7 +617,7 @@ display:flex;
 	background-image:url("img/rejsekort.png");
 	height:193px;
 	width:306px;
-	
+
 }
 .kort1{
 	z-index:1;
@@ -669,9 +675,10 @@ display:flex;
   border-radius: 24px;
 
 }
-	
-	/*------ dropdown ------*/
-	.float-right{
+
+	/*------ dropdown kort------*/
+
+.float-right{
   float: right;
 }
 .fa{
@@ -682,7 +689,7 @@ dropdown{
    display: inline-block;
 }
 dropdown label:hover, dropdown ul li:hover{
-  background: #1ABC9C;
+  background-color: #31525C;
   color: white;
   cursor: pointer;
 }
@@ -703,12 +710,13 @@ dropdown input ~ ul{
 
 }
 dropdown input:checked + label{
-  background: #1ABC9C;
+  background-color: yellow;
   color: grey;
 }
 
 dropdown input:checked ~ ul{
   visibility: visible;
+  background-color: #31525C;
   opacity: 1;
   top: 0;
 }
@@ -717,13 +725,13 @@ dropdown input:checked ~ ul{
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -ms-transition: all .3s;
-  transition: all .3s;  
+  transition: all .3s;
   backface-visibility:hidden;
   -webkit-backface-visibility:hidden; /* Chrome and Safari */
   -moz-backface-visibility:hidden; /* Firefox */
   -ms-backface-visibility:hidden; /* Internet Explorer */
 }
-	
+
 }
 
 /*---------- sendkey--------*/
