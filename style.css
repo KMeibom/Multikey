@@ -551,12 +551,12 @@ h5{
 }*/
 
 /*forside*/
-
+	
 .container-menu{
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 50px;
+  min-height: 20px;
 	align-content: center;
 }
 
@@ -568,34 +568,44 @@ h5{
 	margin-right:2%;
 	position:relative;
 	height:617px;
+	
+	/*
+	    width: 200px;
+    color:#fff;
+    position: relative;
+    text-align:center; */
 }
-
+/*
 .kort-selected{
 	list-style:none;
 		margin-bottom:10%;
 	position:relative;
   z-index:0;
 }
-
+*/
+	¨/*
 .kort-liste{
 	    position: relative;
     list-style:none;
 	padding-bottom:10%;
 	padding-top:20%;
 }
-
+*/
 .li-kort img{
-	position: relative;
-    width: 90%;
-    height: 30%;
+	position:relative;
 }
 
 .li-kort{
-display:flex;
-	justify-content: center;
+	position: relative;
+    display:block;
+	background-repeat: no-repeat;
+	height:193px;
+	width:300px;
+
 }
 
 /* ------ Kort ------*/
+	/*
 #myAnimation {
 	position:relative;
 	z-index:1;
@@ -614,69 +624,64 @@ display:flex;
 	width:306px;
 	background-repeat: no-repeat;
 }
-
-.kort{
+*/
+	/*
+#select{
 	z-index:0;
 	background-size:306px 193px;
 	background-image:url("img/fitnessworld.svg");
-	height:193px;
+	background-repeat:no-repeat;
+	height:450px;
 	width:306px;
 }
 
-.kort0{
+#kort0{
 	z-index:0;
 	background-size:306px 193px;
 	background-image:url("img/rejsekort.png");
+	background-repeat:no-repeat;
 	height:193px;
 	width:306px;
 
 }
-.kort1{
+#kort1{
 	z-index:1;
-	margin-top:-40%;
 	background-size:306px 193px;
 	background-image:url("img/føtex.png");
-	height:193px;
-	width:306px;
-}
-.kort2{
-	z-index:2;
-	margin-top:-40%;
-	background-size:306px 193px;
-	background-image:url("img/hjem2.svg");
-	height:193px;
-	width:306px;
-}
-.kort3{
-	z-index:3;
-	margin-top:-40%;
-	background-size:306px 193px;
-	background-image:url("img/hjem1.svg");
-	height:193px;
-	width:306px;
-}
-.kort4{
-	z-index:4;
-	margin-top:-40%;
-	background-size:306px 193px;
-	background-image:url("img/ucl.svg");
-	height:193px;
-	width:306px;
-}
-.kort5{
-	z-index:5;
-	margin-top:-40%;
-	background-size:306px 193px;
-	background-image:url("img/abtion.svg");
 	background-repeat:no-repeat;
 	height:193px;
 	width:306px;
 }
-.kort6{
-	z-index:6;
-	margin-top:-40%;
+#kort2{
+	z-index:2;
 	background-size:306px 193px;
-	height:193px;
+	background-image:url("img/hjem2.svg");
+	background-repeat:no-repeat;
+	height:450px;
+	width:306px;
+}
+#kort3{
+	z-index:3;
+	background-size:306px 193px;
+	background-image:url("img/hjem1.svg");
+	background-repeat:no-repeat;
+	height:450px;
+	width:306px;
+}
+#kort4{
+	z-index:4;
+	background-size:306px 193px;
+	background-image:url("img/ucl.svg");
+	background-repeat:no-repeat;
+	height:450px;
+	width:306px;
+}
+#kort5{
+	z-index:5;
+	background-size:306px 193px;
+	background-image:url("img/abtion.svg");
+	background-repeat:no-repeat;
+	height:450px;
 	width:306px;
 }
 
