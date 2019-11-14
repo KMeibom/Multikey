@@ -2,28 +2,43 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>sharekey</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
-  </head>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
   <body>
+    <main>
 
-<main>
+<div class="kryds">
+   <button1 onclick="ReplacePage ();"> + </button1>
+</div>
+
+<!--- Java -->
+
+      <script type="text/javascript">
+      function ReplacePage (){
+        window.location.replace ("forside.html")
+      }
+      </script>
+
+      <!--- -->
 
 
-  <img src="img/fitnessworld.svg" class="fw" alt="fitnessworld kort">
+<div class="fw">
+  <img src="img/fitnessworld.svg" alt="fitnessworld kort">
+</div>
 
-  <section class="input">
-    <form>
-      <input type="text" name="name" placeholder="Number">
-      <input type="password" name="password" placeholder="Time & date">
-    </form>
-  </section>
-  <div class="button"><button type="submit" name="Sign up">Share</button></div>
+<section class="input">
+  <form>
+    <input type="text" name="name" placeholder="Number">
+    <input type="text" name="time & date" placeholder="Time & Date">
+  </form>
+</section>
 
+<a href="sendkey1.html"> <div class="button"><button type="submit" name"share"> share </button></div> </a>
 
-</main>
+</div>
 
-
+    </main>
   </body>
 </html>
