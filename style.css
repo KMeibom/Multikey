@@ -23,6 +23,11 @@ main{
 
 /*navigation*/
 
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
 nav{
 	width:10%;
   z-index: 95;
@@ -640,8 +645,8 @@ h4{
 	font-family:helvetica, sans-serif;
 	font-weight:bold;
 	margin-top:6%;
-	}	
-	
+	}
+
 h5{
   color: #ededed;
   margin-top: 2%;
