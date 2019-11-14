@@ -6,6 +6,7 @@
     <title>Multikey</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   </head>
   <body>
     <main>
@@ -54,37 +55,31 @@
       <section class="container-menu">
         <div class="help"><img src="img/plus.svg" alt="Tilføj kort"></div>
       </section>
-
-
-
-      <section class="container-kort" id="container-kort">
+		<script src="js.js" type="text/javascript"></script>
 		  
-		  <div class="kort-selected">
+		  <!--<div class="kort-selected">
 			  <dropdown>
   <input id="toggle2" type="checkbox">
-  <label for="toggle2" class="animate"><div id ="myAnimation" onclick="myMove()"></div><i class="fa fa-bars float-right"></i></label>
+  <label for="toggle2" class="animate"><div id ="myAnimation"></div><i class="fa fa-bars float-right"></i></label>
 				  
   <ul class="animate">
     <li class="animate">Code<i class="fa fa-code float-right"></i></li>
     <li class="animate">Zoom<i class="fa fa-arrows-alt float-right"></i></li>
     <li class="animate">Settings<i class="fa fa-cog float-right"></i></li>
   </ul>
-</dropdown>
+</dropdown> !-->
 
 			  <script src="js.js" type="text/javascript"></script>
-		  </div>
 		  
-		<div class="kort-liste">
-			
-				<div id ="myAnimation2" onclick="myMove()"></div>
-				<div class= "kort1 li-kort" onclick="myMove()"></div>
-				<div class= "kort2 li-kort" onClick="myMove()"></div>
-				<div class= "kort3 li-kort" onClick="myMove()"></div>
-				<div class= "kort4 li-kort" onClick="myMove()"></div>
-				<div class= "kort5 li-kort" onClick="myMove()"></div>
+	  <section class="container-kort" id="container-kort">
+				<div class ="li-kort" id="select"><img src="img/fitnessworld.svg"></div>
+				<div class ="li-kort" id="kort0"> <img src="img/rejsekort.png"> </div>
+				<div class= "li-kort" id="kort1"> <img src="img/føtex.png"></div>
+				<div class= "li-kort" id="kort2"> <img src="img/hjem2.svg"></div>
+				<div class= "li-kort" id="kort3"> <img src="img/hjem1.svg"></div>
+				<div class= "li-kort" id="kort4"> <img src="img/ucl.svg"></div>
+				<div class= "li-kort" id="kort5"> <img src="img/abtion.svg"></div>
 						<script src="js.js" type="text/javascript"></script>
-		</div>
-		  
       </section>
     </main>
   </body>
