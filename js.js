@@ -18,7 +18,9 @@ $('#container-kort').on('click', '.li-kort', function () {
             clickedDiv.css('top', '0px');
             prevDiv.insertBefore(clickedDiv);
             clickedDiv.prependTo("#container-kort");
-            animating = false;
+            animating = false; 
         });
     }
+	
 });
+
